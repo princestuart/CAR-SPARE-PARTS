@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Please login
+        </title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url("diary.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                backdrop-filter: blur(10px);
+            }
+                        
+        </style>
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+           <div>
+            <input type="submit" value="Login"><br><br>
+           </div>
+        </form>
+       <a href="end.htm.html"> <button class="button">Forgot assword?</button></a>
+       <div class="next">
+        <button class="button">next</button>
+       </div>
+       <style>
+        .next{
+            text-align: end;
+            align-content: end;
+            margin-top: 450px;
+            
+            
+        }
+       </style>
+    </body>
+</html>
